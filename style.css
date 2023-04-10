@@ -1,0 +1,24 @@
+h1, h2 {
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+}
+
+.block {
+    margin: 10px;
+}
+
+.view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.result {
+    display: flex;
+    flex-direction: row;
+}
+.result>label, .code>label {
+    margin-right: 20px;
+}
