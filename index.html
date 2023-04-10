@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <script src="component.js"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML-generator</h1>
+    <h2>Button</h2>
+    <hr>
+    <div class="view block">
+        <div>
+            <label>view params</label>
+            <select id="param">
+                <option selected disabled>select</option>
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+        </select>
+        </div>
+        <div>
+            <label>modifiers</label>
+            <select id="modifier">
+                <option selected disabled>select</option>
+                <option value="border">border</option>
+                <option value="shadow">shadow</option>
+                <option value="radius">border-radius</option>
+        </select>
+        </div>
+        <div>
+            <label>text</label>
+            <input type="text" size="40" id="text">
+        </div>
+        <div>
+            <label>events</label>
+            <select id="event">
+                <option selected disabled>select</option>
+                <option value="alert">alert</option>
+                <option value="prompt">prompt</option>
+                <option value="confirm">confirm</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="block">
+        <button id="render">render</button>
+    </div>
+
+    <hr>
+
+    <div class="result block">
+        <label>result</label>
+        <div id="result"></div>
+    </div>
+    <div class="code block">
+        <label>code</label>
+        <input  id="code" type="text" style="width:300px; height:55px;">
+    </div>
+
+</body>
+</html> 
